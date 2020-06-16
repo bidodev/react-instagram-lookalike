@@ -12,12 +12,21 @@
     list-style-type: none;
     text-transform: uppercase;
 
+    ul{
+        display: flex;
+        width: 20vw;
+        justify-content:space-around;
+    }
+
     li {
-        width: 5vw;
+        width: 4.2vw;
         height: 100%;
         cursor: pointer;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .active{
+        color: #181818;
     }
 }

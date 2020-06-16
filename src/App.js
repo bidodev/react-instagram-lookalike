@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import './sass/main.scss';
+import "./components/icons/font-awesome-library";
+
 import Header from './components/header/header-component';
 import Profile from './components/profile/profile-component';
 import Content from './components/inner/inner-component';
+
 
 import * as content from './data.json';
 

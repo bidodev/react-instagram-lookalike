@@ -2,37 +2,43 @@
   {
     "id": 1,
     "name": "Hadi",
-    "address": "Berlin",
+    "likes": "299.9k",
+    "comments": "13k",
     "url": "./img/doggo"
   },
   {
     "id": 2,
     "name": "Ali",
-    "address": "London",
+    "likes": "200.9k",
+    "comments": "11.2k",
     "url": "./img/doggo"
   },
   {
     "id": 3,
     "name": "Olga",
-    "address": "Dubai",
+    "likes": "309.9k",
+    "comments": "5k",
     "url": "./img/doggo"
   },
   {
     "id": 4,
     "name": "Hadi",
-    "address": "Berlin",
+    "likes": "209.9k",
+    "comments": "12k",
     "url": "./img/doggo"
   },
   {
     "id": 5,
     "name": "Ali",
-    "address": "London",
+    "likes": "125.9k",
+    "comments": "12k",
     "url": "./img/doggo"
   },
   {
     "id": 6,
     "name": "Olga",
-    "address": "Dubai",
+    "likes": "275.9k",
+    "comments": "5k",
     "url": "./img/doggo"
   }
 ]
