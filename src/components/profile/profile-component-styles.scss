@@ -1,4 +1,19 @@
 .profile {
+    margin-top: 5vh;
     width: 93.5rem;
     height: 27rem;
+    display: flex;
+
+    &-img{
+        width: 30%;
+
+        img{
+            border-radius: 50%;
+        }
+    }
+    
+    &-aside{
+        width: 70%;
+        border: 1px solid red;
+    }
 }

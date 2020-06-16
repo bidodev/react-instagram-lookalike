@@ -17,7 +17,7 @@ const Header = () => {
           <FontAwesomeIcon icon="paper-plane" className="icon" />
           <FontAwesomeIcon icon="compass" className="icon" />
           <FontAwesomeIcon icon="heart" className="icon" />
-          <img src="./img/avatar.jpg" alt="avatar-nav" className="icon" />
+          <img src="./img/avatar.jpg" alt="avatar-nav"/>
         </div>
       </ul>
     </div>
