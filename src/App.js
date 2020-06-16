@@ -17,9 +17,13 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <div className="main">
+        
         <Profile />
         <Content data={this.state.content.default}/>
       </div>
+      </div>
+
     );
   }
 }
