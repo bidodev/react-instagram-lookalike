@@ -1,14 +1,20 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from "react";
+import './sass/main.scss'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+import Header from "./components/header/header-component";
+import Profile from "./components/profile/profile-component";
+import Content from "./components/inner/inner-component";
 
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <Profile />
+        <Content />
+      </div>
+    );
+  }
 }
 
 export default App;
