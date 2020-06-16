@@ -10,7 +10,7 @@ const Header = () => {
       <div className="header-logo">
         <img src="./img/instagram.png" alt="logo" />
       </div>
-      <Search />
+      <Search placeholder="Search"/>
       <ul className="header-icons">
         <div>
           <FontAwesomeIcon icon="home" className="icon" />
