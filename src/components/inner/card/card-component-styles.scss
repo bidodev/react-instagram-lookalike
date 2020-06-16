@@ -1,14 +1,22 @@
-.card{
-    background-color: #181212;
-    height: 29rem;
-    width: 29rem;
-    align-items: center;
-    border-top: 1px solid #dbdbdb;
-    color: #8e8e8e;
-    display: flex;
-    font-size: 12px;
-    font-weight: 600;
-    justify-content: center;
-    letter-spacing: 1px;
-    text-align: center;
-}
+.card {
+    border-radius: 5px;
+    padding: 1.5rem;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    h1{
+        text-align: center;
+        color: #f1f1f1
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }

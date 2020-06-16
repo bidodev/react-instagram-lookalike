@@ -9,7 +9,7 @@ class Content extends Component {
         return (
             <div className="inner-content">
                 <Navigation />
-                <CardList />
+                <CardList cards={this.props.data}/>
             </div>
         )
     }
