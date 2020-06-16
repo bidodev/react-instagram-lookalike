@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/instagram-lookalike/static/css/main.12105b03.chunk.css",
-    "main.js": "/instagram-lookalike/static/js/main.52c5d34b.chunk.js",
-    "main.js.map": "/instagram-lookalike/static/js/main.52c5d34b.chunk.js.map",
-    "runtime-main.js": "/instagram-lookalike/static/js/runtime-main.b8f4f7f2.js",
-    "runtime-main.js.map": "/instagram-lookalike/static/js/runtime-main.b8f4f7f2.js.map",
-    "static/js/2.569a09f3.chunk.js": "/instagram-lookalike/static/js/2.569a09f3.chunk.js",
-    "static/js/2.569a09f3.chunk.js.map": "/instagram-lookalike/static/js/2.569a09f3.chunk.js.map",
-    "index.html": "/instagram-lookalike/index.html",
-    "precache-manifest.3a69b3d1cb470538b09b8f77427b96a9.js": "/instagram-lookalike/precache-manifest.3a69b3d1cb470538b09b8f77427b96a9.js",
-    "service-worker.js": "/instagram-lookalike/service-worker.js",
-    "static/css/main.12105b03.chunk.css.map": "/instagram-lookalike/static/css/main.12105b03.chunk.css.map",
-    "static/js/2.569a09f3.chunk.js.LICENSE.txt": "/instagram-lookalike/static/js/2.569a09f3.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/instagram-lookalike/static/media/fa-solid-900.ec763292.svg"
+    "main.css": "/static/css/main.f4b82fd0.chunk.css",
+    "main.js": "/static/js/main.24c97c5c.chunk.js",
+    "main.js.map": "/static/js/main.24c97c5c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b1f5f1b1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b1f5f1b1.js.map",
+    "static/js/2.8244f646.chunk.js": "/static/js/2.8244f646.chunk.js",
+    "static/js/2.8244f646.chunk.js.map": "/static/js/2.8244f646.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a1ec4754393983fb5854bc7c9537e472.js": "/precache-manifest.a1ec4754393983fb5854bc7c9537e472.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f4b82fd0.chunk.css.map": "/static/css/main.f4b82fd0.chunk.css.map",
+    "static/js/2.8244f646.chunk.js.LICENSE.txt": "/static/js/2.8244f646.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/static/media/fa-solid-900.ec763292.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8f4f7f2.js",
-    "static/js/2.569a09f3.chunk.js",
-    "static/css/main.12105b03.chunk.css",
-    "static/js/main.52c5d34b.chunk.js"
+    "static/js/runtime-main.b1f5f1b1.js",
+    "static/js/2.8244f646.chunk.js",
+    "static/css/main.f4b82fd0.chunk.css",
+    "static/js/main.24c97c5c.chunk.js"
   ]
 }
