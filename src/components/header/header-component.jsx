@@ -10,7 +10,8 @@ const Header = (props) => {
       <div className="header-logo">
         <img src="./img/instagram.png" alt="logo" />
       </div>
-      <Search handleChange={props.handleChange} placeholder="🔍 Filter by Race"/>
+
+      <Search handleChange={props.handleChange} placeholder="Search"/>
       <ul className="header-icons">
         <div>
           <FontAwesomeIcon icon="home" className="icon" />

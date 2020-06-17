@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './sass/main.scss';
 import './components/icons/font-awesome-library';
-import InfiniteScroll from 'react-infinite-scroll-component';
 
 import Header from './components/header/header-component';
 import Profile from './components/profile/profile-component';
@@ -9,7 +8,7 @@ import Content from './components/inner/inner-component';
 
 // load our data
 // In the future we might add an API / MongoDB or MySQL
-import pets from './data.json';
+import data from './data.json';
 
 class App extends Component {
   constructor() {
