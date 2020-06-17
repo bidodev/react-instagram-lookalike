@@ -11,15 +11,14 @@ const Profile = () => {
       <aside className="profile-aside">
         <div className="profile-aside-buttons">
           <h2>pubitypets</h2>
-          <div>b</div>
-          <div>c</div>
-          <div>d</div>
-          <div>e</div>
+          <button type="button">Follow</button>
         </div>
         <div className="profile-aside-stats">
-          <div>a</div>
-          <div>b</div>
-          <div>c</div>
+        <ul>
+          <li>674<span>posts</span></li>
+          <li>1.9m<span>followers</span></li>
+          <li>58<span>following</span></li>
+          </ul>
         </div>
         <div className="profile-aside-description">
           <h3>Pubity Pets</h3>
@@ -39,7 +38,7 @@ const Profile = () => {
             <Emoji symbol="⬇" label="arrow-down" /> Submit your videos below <Emoji symbol="⬇" label="arrow-down" />
           </li>
           <li>
-            <a href="pubityvideos.com">pubityvideos.com</a>{' '}
+            <a href="https://www.pubityvideos.com/" rel="noopener noreferrer" target="_blank">pubityvideos.com</a>{' '}
           </li>
         </div>
         <div className="profile-aside-followed">Followed by pubity and stacyseven</div>
