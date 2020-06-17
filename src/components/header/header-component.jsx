@@ -4,13 +4,13 @@ import Search from './search/search-component';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="header">
       <div className="header-logo">
         <img src="./img/instagram.png" alt="logo" />
       </div>
-      <Search placeholder="🔍 Search"/>
+      <Search handleChange={props.handleChange} placeholder="🔍 Filter by Race"/>
       <ul className="header-icons">
         <div>
           <FontAwesomeIcon icon="home" className="icon" />

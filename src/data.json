@@ -1,44 +1,86 @@
 [
   {
     "id": 1,
-    "name": "Hadi",
+    "race": "dog",
     "likes": "299.9k",
     "comments": "13k",
-    "url": "./img/doggo"
+    "url": "./img/"
   },
   {
     "id": 2,
-    "name": "Ali",
+    "race": "dog",
     "likes": "200.9k",
     "comments": "11.2k",
-    "url": "./img/doggo"
+    "url": "./img/"
   },
   {
     "id": 3,
-    "name": "Olga",
+    "race": "dog",
     "likes": "309.9k",
     "comments": "5k",
-    "url": "./img/doggo"
+    "url": "./img/"
   },
   {
     "id": 4,
-    "name": "Hadi",
+    "race": "dog",
     "likes": "209.9k",
     "comments": "12k",
-    "url": "./img/doggo"
+    "url": "./img/"
   },
   {
     "id": 5,
-    "name": "Ali",
+    "race": "dog",
     "likes": "125.9k",
     "comments": "12k",
-    "url": "./img/doggo"
+    "url": "./img/"
   },
   {
     "id": 6,
-    "name": "Olga",
+    "race": "dog",
+    "likes": "175.9k",
+    "comments": "5.3k",
+    "url": "./img/"
+  },
+  {
+    "id": 7,
+    "race": "dog",
     "likes": "275.9k",
+    "comments": "7k",
+    "url": "./img/"
+  },
+  {
+    "id": 8,
+    "race": "cat",
+    "likes": "205.9k",
+    "comments": "15.2k",
+    "url": "./img/"
+  },
+  {
+    "id": 9,
+    "race": "dog",
+    "likes": "2.9m",
+    "comments": "214k",
+    "url": "./img/"
+  },
+  {
+    "id": 10,
+    "race": "dog",
+    "likes": "86.9k",
+    "comments": "21k",
+    "url": "./img/"
+  },
+  {
+    "id": 11,
+    "race": "cat",
+    "likes": "869.9k",
     "comments": "5k",
-    "url": "./img/doggo"
+    "url": "./img/"
+  },
+  {
+    "id": 12,
+    "race": "cat",
+    "likes": "6.9m",
+    "comments": "2.7k",
+    "url": "./img/"
   }
 ]
