@@ -3,8 +3,8 @@ import './card-component-styles.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Card extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     //this component is statefull, but only this component care about the this state,
     //therefore we don't need to make component drilling.
@@ -30,7 +30,7 @@ class Card extends Component {
       <React.Fragment>
         <div className="card" onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
           <img key={id} src={imgPath} alt={name} />
-          {this.state.isHovering && <span><FontAwesomeIcon icon="heart" className="icon" />{likes} <FontAwesomeIcon icon="comments" className="icon" />{comments}</span>}
+          {this.state.isHovering && <span><FontAwesomeIcon icon={['fas', 'heart']} />{likes} <FontAwesomeIcon icon="comments"/>{comments}</span>}
         </div>
       </React.Fragment>
     );

@@ -35,7 +35,7 @@ const Profile = () => {
             contact - pubitypets@gmail.com
           </li>
           <li>
-            <Emoji symbol="⬇" label="arrow-down" /> Submit your videos below <Emoji symbol="⬇" label="arrow-down" />
+            <Emoji symbol="⬇️" label="arrow-down" /> Submit your videos below <Emoji symbol="⬇️" label="arrow-down" />
           </li>
           <li>
             <a href="https://www.pubityvideos.com/" rel="noopener noreferrer" target="_blank">pubityvideos.com</a>{' '}
