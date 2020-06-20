@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6b826d4.chunk.css",
-    "main.js": "/static/js/main.c1245d62.chunk.js",
-    "main.js.map": "/static/js/main.c1245d62.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b1f5f1b1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b1f5f1b1.js.map",
-    "static/js/2.97b8127b.chunk.js": "/static/js/2.97b8127b.chunk.js",
-    "static/js/2.97b8127b.chunk.js.map": "/static/js/2.97b8127b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8ad503e7725b62b16840c98557e8bc7d.js": "/precache-manifest.8ad503e7725b62b16840c98557e8bc7d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.a6b826d4.chunk.css.map": "/static/css/main.a6b826d4.chunk.css.map",
-    "static/js/2.97b8127b.chunk.js.LICENSE.txt": "/static/js/2.97b8127b.chunk.js.LICENSE.txt"
+    "main.css": "/instagram-lookalike/static/css/main.a6b826d4.chunk.css",
+    "main.js": "/instagram-lookalike/static/js/main.c1245d62.chunk.js",
+    "main.js.map": "/instagram-lookalike/static/js/main.c1245d62.chunk.js.map",
+    "runtime-main.js": "/instagram-lookalike/static/js/runtime-main.b8f4f7f2.js",
+    "runtime-main.js.map": "/instagram-lookalike/static/js/runtime-main.b8f4f7f2.js.map",
+    "static/js/2.97b8127b.chunk.js": "/instagram-lookalike/static/js/2.97b8127b.chunk.js",
+    "static/js/2.97b8127b.chunk.js.map": "/instagram-lookalike/static/js/2.97b8127b.chunk.js.map",
+    "index.html": "/instagram-lookalike/index.html",
+    "precache-manifest.763d9dc0f351659756ba2b08f4faddb9.js": "/instagram-lookalike/precache-manifest.763d9dc0f351659756ba2b08f4faddb9.js",
+    "service-worker.js": "/instagram-lookalike/service-worker.js",
+    "static/css/main.a6b826d4.chunk.css.map": "/instagram-lookalike/static/css/main.a6b826d4.chunk.css.map",
+    "static/js/2.97b8127b.chunk.js.LICENSE.txt": "/instagram-lookalike/static/js/2.97b8127b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b1f5f1b1.js",
+    "static/js/runtime-main.b8f4f7f2.js",
     "static/js/2.97b8127b.chunk.js",
     "static/css/main.a6b826d4.chunk.css",
     "static/js/main.c1245d62.chunk.js"
