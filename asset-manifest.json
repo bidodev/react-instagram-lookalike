@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/instagram-lookalike/static/css/main.c6332c50.chunk.css",
+    "main.css": "/instagram-lookalike/static/css/main.ea4ac45d.chunk.css",
     "main.js": "/instagram-lookalike/static/js/main.af980d9d.chunk.js",
     "main.js.map": "/instagram-lookalike/static/js/main.af980d9d.chunk.js.map",
     "runtime-main.js": "/instagram-lookalike/static/js/runtime-main.b8f4f7f2.js",
@@ -8,15 +8,15 @@
     "static/js/2.b724a33d.chunk.js": "/instagram-lookalike/static/js/2.b724a33d.chunk.js",
     "static/js/2.b724a33d.chunk.js.map": "/instagram-lookalike/static/js/2.b724a33d.chunk.js.map",
     "index.html": "/instagram-lookalike/index.html",
-    "precache-manifest.9ba9bcdafef2e4332c916d5d9b8e4c9d.js": "/instagram-lookalike/precache-manifest.9ba9bcdafef2e4332c916d5d9b8e4c9d.js",
+    "precache-manifest.af273fb022fa0bef87ca4cf2f739d2ce.js": "/instagram-lookalike/precache-manifest.af273fb022fa0bef87ca4cf2f739d2ce.js",
     "service-worker.js": "/instagram-lookalike/service-worker.js",
-    "static/css/main.c6332c50.chunk.css.map": "/instagram-lookalike/static/css/main.c6332c50.chunk.css.map",
+    "static/css/main.ea4ac45d.chunk.css.map": "/instagram-lookalike/static/css/main.ea4ac45d.chunk.css.map",
     "static/js/2.b724a33d.chunk.js.LICENSE.txt": "/instagram-lookalike/static/js/2.b724a33d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b8f4f7f2.js",
     "static/js/2.b724a33d.chunk.js",
-    "static/css/main.c6332c50.chunk.css",
+    "static/css/main.ea4ac45d.chunk.css",
     "static/js/main.af980d9d.chunk.js"
   ]
 }
