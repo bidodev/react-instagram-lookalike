@@ -1,15 +1,7 @@
 @charset "UTF-8";
 
-// 1. Import Fontawesome
-$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
-@import '~@fortawesome/fontawesome-free/scss/fontawesome';
-@import '~@fortawesome/fontawesome-free/scss/regular';
-@import '~@fortawesome/fontawesome-free/scss/solid';
-@import '~@fortawesome/fontawesome-free/scss/brands';
-
-// 2. Base stuff
+// 1. Base stuff
 @import "base/base";
-
 
 .App {
   text-align: center;
@@ -44,6 +36,7 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 
 .icon {
   font-size: 2rem;
+  color: #282828;
   cursor: pointer;
 }
 

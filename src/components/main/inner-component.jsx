@@ -3,11 +3,11 @@ import './inner-component.scss';
 import Navigation from './navigation/navigation-component';
 import CardList from './card-list/card-list-component';
 
-const Content = (props) => {
+const Content = ({data}) => {
   return (
     <div className="inner-content">
       <Navigation />
-      <CardList cards={props.data} />
+      <CardList cards={data} />
     </div>
   );
 };

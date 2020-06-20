@@ -4,7 +4,7 @@ import './components/icons/font-awesome-library';
 
 import Header from './components/header/header-component';
 import Profile from './components/profile/profile-component';
-import Content from './components/inner/inner-component';
+import Content from './components/main/inner-component';
 
 // load our data
 // In the future we might add an API / MongoDB or MySQL

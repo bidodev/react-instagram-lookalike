@@ -4,7 +4,11 @@ import {
   faPaperPlane,
   faCompass,
   faHeart,
-  faComments
+  faComments,
+  faStream,
+  faVideo,
+  faIdCardAlt,
+  faSearch
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faHome, faPaperPlane, faCompass, faHeart, faComments);
+library.add(faHome, faPaperPlane, faCompass, faHeart, faComments, faStream, faVideo, faIdCardAlt, faSearch );
