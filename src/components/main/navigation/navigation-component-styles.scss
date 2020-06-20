@@ -1,6 +1,7 @@
 .navigation{
     display: flex;
-    height: 5.3rem;
+    flex-direction: column;
+    height: auto;
     align-items: center;
     border-top: 1px solid #dbdbdb;
     color: #8e8e8e;
@@ -17,6 +18,7 @@
         width: 20vw;
         justify-content:space-around;
         align-items: center;
+        
     }
 
     li {
@@ -29,4 +31,8 @@
     .active{
         color: #181818;
     }
+}
+
+.inner{
+    height: 20vh;
 }

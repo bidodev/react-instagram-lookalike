@@ -1,5 +1,6 @@
 import React from 'react';
 import './navigation-component-styles.scss';
+import CardList from '../card-list/card-list-component';
 //import NavigationItem from './navigation-item/navigation-item.component'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -10,51 +11,30 @@ import {
   Link
 } from "react-router-dom";
 
-const Posts = () => {
-  return ( <div>Posts</div> );
-}
-const Igtv = () => {
-  return ( <div>Igtv</div> );
-}
-const Tagged = () => {
-  return ( <div>Tagged</div> );
-}
  
-
-
-const Navigation = () => {
+const Navigation = ({cards}) => {
   return (
     <Router>
     <div className="navigation">
         <ul>
-          <li>
-            <Link to="/">Posts</Link>
-          </li>
-          <li>
-            <Link to="/igtv">Igtv</Link>
-          </li>
-          <li>
-            <Link to="/tagged">Tagged</Link>
-          </li>
+          <li><FontAwesomeIcon icon="stream" /><Link to="/">Posts</Link></li>
+          <li><FontAwesomeIcon icon="video" /><Link to="/igtv">Igtv</Link></li>
+          <li><FontAwesomeIcon icon="id-card-alt" /><Link to="/tagged">Tagged</Link></li>
         </ul>
         <Switch>
           <Route exact path="/">
-            <Posts />
+            <CardList cards={cards} /> 
           </Route>
-          <Route path="/igtv">
+          {/* <Route path="/igtv">
             <Igtv />
           </Route>
           <Route path="/tagged">
             <Tagged />
-          </Route>
+          </Route> */}
         </Switch>
       </div>
     </Router>
   );
 };
-
+{/* <CardList cards={cards} /> */}
 export default Navigation;
-
-{/* <NavigationItem className={"active"} iconName={"stream"} title={"Posts"} />
-<NavigationItem iconName={"video"} title={"Igtv"} />
-<NavigationItem iconName={"id-card-alt"} title={"Tagged"} /> */}
