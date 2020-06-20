@@ -2,9 +2,8 @@
 
 - Build your own **data.json** which contains all the information about posts;
 - Use **Sass** for this build;
-- Feel free to have any other artist or celebrity or even own your photos;
+- Feel free to have any other artist or celebrity or even your own photos;
 - Consider that you have to use **props** and pass data to components;
-- Create repo and send me the link in private message.
 
 ## Model
 ![screenshot](./doc/img/pubity.png)
