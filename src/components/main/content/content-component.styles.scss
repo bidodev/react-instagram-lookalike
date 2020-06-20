@@ -1,7 +1,6 @@
 .navigation {
   display: flex;
   flex-direction: column;
-  height: auto;
   align-items: center;
   border-top: 1px solid #dbdbdb;
   color: #8e8e8e;
@@ -14,8 +13,11 @@
   text-transform: uppercase;
   width: 93.5rem;
   min-height: 66.5vh;
+  overflow: hidden;
 
   ul {
+    margin: 0;
+    height: 5.3rem;
     display: flex;
     width: 20vw;
     justify-content: space-around;
@@ -24,7 +26,6 @@
 
   li {
     width: 4.2vw;
-    height: 100%;
     cursor: pointer;
     display: flex;
     justify-content: space-evenly;

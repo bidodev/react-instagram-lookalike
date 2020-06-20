@@ -98,69 +98,33 @@
       },
       {
         "id": 2,
-        "race": "dog",
+        "race": "cat",
         "likes": "200.9k",
         "comments": "11.2k"
       },
       {
         "id": 3,
-        "race": "dog",
+        "race": "cat",
         "likes": "309.9k",
         "comments": "5k"
       },
       {
         "id": 4,
-        "race": "dog",
-        "likes": "209.9k",
-        "comments": "12k"
+        "race": "cat",
+        "likes": "299.9k",
+        "comments": "13k"
       },
       {
         "id": 5,
         "race": "dog",
-        "likes": "125.9k",
-        "comments": "12k"
+        "likes": "200.9k",
+        "comments": "11.2k"
       },
       {
         "id": 6,
         "race": "dog",
-        "likes": "175.9k",
-        "comments": "5.3k"
-      },
-      {
-        "id": 7,
-        "race": "dog",
-        "likes": "275.9k",
-        "comments": "7k"
-      },
-      {
-        "id": 8,
-        "race": "cat",
-        "likes": "205.9k",
-        "comments": "15.2k"
-      },
-      {
-        "id": 9,
-        "race": "dog",
-        "likes": "2.9m",
-        "comments": "214k"
-      },
-      {
-        "id": 10,
-        "race": "dog",
-        "likes": "86.9k",
-        "comments": "21k"
-      },
-      {
-        "id": 11,
-        "race": "cat",
-        "likes": "869.9k",
+        "likes": "309.9k",
         "comments": "5k"
-      },
-      {
-        "id": 12,
-        "race": "cat",
-        "likes": "6.9m",
-        "comments": "2.7k"
       }
     ]
   },
@@ -169,21 +133,21 @@
     "data": [
       {
         "id": 1,
-        "race": "dog",
-        "likes": "2.5k",
-        "comments": "190"
+        "race": "bunny",
+        "likes": "86.9k",
+        "comments": "21k"
       },
       {
         "id": 2,
-        "race": "dog",
-        "likes": "200.9k",
-        "comments": "11.2k"
+        "race": "bunny",
+        "likes": "869.9k",
+        "comments": "5k"
       },
       {
         "id": 3,
-        "race": "dog",
-        "likes": "309.9k",
-        "comments": "5k"
+        "race": "bunny",
+        "likes": "6.9m",
+        "comments": "2.7k"
       },
       {
         "id": 4,
@@ -217,27 +181,27 @@
       },
       {
         "id": 9,
-        "race": "dog",
+        "race": "cat",
         "likes": "2.9m",
         "comments": "214k"
       },
       {
         "id": 10,
-        "race": "dog",
-        "likes": "86.9k",
-        "comments": "21k"
+        "race": "cat",
+        "likes": "2.9m",
+        "comments": "214k"
       },
       {
         "id": 11,
         "race": "cat",
-        "likes": "869.9k",
-        "comments": "5k"
+        "likes": "2.9m",
+        "comments": "214k"
       },
       {
         "id": 12,
-        "race": "cat",
-        "likes": "6.9m",
-        "comments": "2.7k"
+        "race": "dog",
+        "likes": "2.9m",
+        "comments": "214k"
       }
     ]
   }
