@@ -23,14 +23,23 @@ class Card extends Component {
     };
   };
   render() {
-    const { url, id, name, race, likes, comments } = this.props.card;
-    const imgPath = `${url}${race}s/${id}.png`
+    const { card, url } = this.props;
+    const { id, name, race, likes, comments } = card;
+
+    const imgPath = `${url}${race}s/${id}.png`;
+    console.log(imgPath)
 
     return (
       <React.Fragment>
         <div className="card" onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
           <img key={id} src={imgPath} alt={name} />
-          {this.state.isHovering && <span><FontAwesomeIcon icon={['fas', 'heart']} />{likes} <FontAwesomeIcon icon="comments"/>{comments}</span>}
+          {this.state.isHovering && (
+            <span>
+              <FontAwesomeIcon icon={['fas', 'heart']} />
+              {likes} <FontAwesomeIcon icon="comments" />
+              {comments}
+            </span>
+          )}
         </div>
       </React.Fragment>
     );
