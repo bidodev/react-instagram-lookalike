@@ -6,12 +6,14 @@ import Card from '../card/card-component';
 
 const CardList = ({ cards }) => {
   const { data, url } = cards;
-  console.log(cards)
   return (
     <div className="card-list">
-      {data.map((card) => (
-        <Card key={card.id} card={card} url={url}/>
-      ))}
+      {data.map((card) => {
+        console.log(url)
+        return (
+          <Card key={`${url + card.race + card.id}`} card={card} url={url} />
+        )
+      })}
     </div>
   );
 };

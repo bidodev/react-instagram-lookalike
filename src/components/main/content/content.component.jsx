@@ -7,7 +7,7 @@ import CardList from '../card-list/card-list-component';
 import './content-component.styles.scss';
 
 const Content = ({ posts, videos, tagged }) => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <div className="navigation">
       <ul>
         <li>
