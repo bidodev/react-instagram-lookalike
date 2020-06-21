@@ -1,6 +1,6 @@
 # Project "Instagram mock-up"
 
-**Disclaimer**: 
+## **Disclaimer**: 
 1. This was an exercise from DCI's WEB Development Course, which I attended between 2019 - 2021. 
 2. This project is just for learning purpose. 
 
