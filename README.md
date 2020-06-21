@@ -5,14 +5,14 @@
 2. This project is just for learning purpose. 
 
 #### The mainly tasks were: 
-- Build your own **data.json** which contains all the information about posts;
-- Use **Sass** for this build;
-- Feel free to have any other artist or celebrity or even your own photos;
-- Consider that you have to use **props** and pass data to components;
+- [x] Build your own **data.json** which contains all the information about posts;
+- [x] Use **Sass** for this build;
+- [x] Feel free to have any other artist or celebrity or even your own photos;
+- [x] Consider that you have to use **props** and pass data to components;
 
-> I've decided to seize the opportunity and add more features to this Project, therefore the new ROADMAP for this project is the follow..
-### Project Roadmap
-- [x] Layout
+### New Project Roadmap
+*I've decided to seize the opportunity and add more features to this Project, therefore the new ROADMAP for this project is the follow*.
+- [x] Lookalike Instagram Layout
 - [x] React router system, with react-router-dom
 - [x] Show stats on Hover.
 - [x] Breaking code into small components.
