@@ -5,6 +5,17 @@
 - Feel free to have any other artist or celebrity or even your own photos;
 - Consider that you have to use **props** and pass data to components;
 
+### Project Roadmap
+
+- [x] Layout
+- [x] React router system, with react-router-dom
+- [x] Show stats on Hover.
+- [x] Breaking code into small components.
+- [ ] Authentication with Firebase
+- [ ] API / Store data in MongoDB
+- [ ] User Profile
+- [ ] Mobile Layout
+
 ## Model
 ![screenshot](./doc/img/pubity.png)
 
