@@ -30,11 +30,13 @@ class Card extends Component {
         <div className="card" onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
           <img key={id} src={url} alt={name} />
           {this.state.isHovering && (
-            <span>
-              <FontAwesomeIcon icon={['fas', 'heart']} />
-              {likes} <FontAwesomeIcon icon="comments" />
-              {comments}
-            </span>
+            <div>
+              <li>
+                <FontAwesomeIcon icon={['fas', 'heart']} /> <span>{likes}</span>
+              </li>
+              <li><FontAwesomeIcon icon="comments" /><span>{comments}</span>
+</li>
+            </div>
           )}
         </div>
       </React.Fragment>
