@@ -9,7 +9,6 @@ const CardList = ({ cards }) => {
   return (
     <div className="card-list">
       {data.map((card) => {
-        console.log(url)
         return (
           <Card key={`${url + card.race + card.id}`} card={card} url={url} />
         )

@@ -26,7 +26,9 @@ class App extends Component {
 
   render() {
     const { posts, videos, tags } = this.state;
+    
     return (
+      
       <div className="App">
         <Header handleChange={this.handleChange} />
 

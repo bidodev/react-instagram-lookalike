@@ -1,7 +1,7 @@
 # Project "Instagram mock-up"
 
 ## **Disclaimer**: 
-1. This was an exercise from DCI's WEB Development Course, which I attended between 2019 - 2021. 
+1. This was an exercise from **DCI's WEB Development Course**, which I attended between 2019 - 2021. 
 2. This project is just for learning purpose. 
 
 #### The mainly tasks were: 
@@ -16,6 +16,7 @@
 - [x] React router system, with react-router-dom
 - [x] Show stats on Hover.
 - [x] Breaking code into small components.
+- [x] Working with Fontawesome and Emojis on React
 - [ ] Authentication with Firebase
 - [ ] API / Store data in MongoDB
 - [ ] User Profile

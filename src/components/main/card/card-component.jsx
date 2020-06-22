@@ -27,8 +27,6 @@ class Card extends Component {
     const { id, name, race, likes, comments } = card;
 
     const imgPath = `${url}${race}s/${id}.png`;
-    console.log(imgPath)
-
     return (
       <React.Fragment>
         <div className="card" onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
