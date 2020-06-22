@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CardList from '../card-list/card-list-component';
 import './content-component.styles.scss';
 
-const Content = ({ posts, videos, tagged }) => (
+const Content = ({ posts, videos, tags }) => (
   <Router basename={process.env.PUBLIC_URL}>
     <div className="navigation">
       <ul>
@@ -32,7 +32,7 @@ const Content = ({ posts, videos, tagged }) => (
           <CardList cards={videos} />
         </Route>
         <Route path="/tagged">
-          <CardList cards={tagged} />
+          <CardList cards={tags} />
         </Route>
       </Switch>
     </div>

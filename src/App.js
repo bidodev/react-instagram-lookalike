@@ -14,9 +14,11 @@ class App extends Component {
     super();
 
     this.state = {
-      posts: [],
-      videos: [],
-      tags: [],
+      data: {
+        posts: [],
+        videos: [],
+        tags: [],
+      },
       searchField: '',
     };
   }
@@ -28,7 +30,7 @@ class App extends Component {
   componentDidMount() {
     axios('https://my-json-server.typicode.com/bidodev/api-insta/db').then((res) => {
       const { posts, videos, tags } = res.data;
-      this.setState({ data: res.data, posts: posts.data, videos: videos.data, tags: tags.data });
+      this.setState({ data: { posts, videos, tags } });
     });
   }
 
@@ -37,16 +39,15 @@ class App extends Component {
   };
 
   render() {
-    const { posts, videos, tags } = this.state;
+    const { ...dataProps } = this.state.data;
     
     return (
-      
       <div className="App">
         <Header handleChange={this.handleChange} />
-
+        
         <div className="main">
           <Profile />
-          <Content posts={posts} videos={videos} tagged={tags} />
+          <Content {...dataProps} />
         </div>
       </div>
     );
