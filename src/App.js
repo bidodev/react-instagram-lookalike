@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios'
 
 import Header from './components/header/header-component';
 import Profile from './components/profile/profile-component';
@@ -6,18 +7,29 @@ import Content from './components/main/content/content.component';
 
 // load our data
 // In the future we might add an API / MongoDB or MySQL
-import { posts, videos, tags } from './data.json';
+//import { posts, videos, tags } from './data.json';
 
 class App extends Component {
   constructor() {
     super();
-    
+
     this.state = {
-      posts,
-      videos,
-      tags,
+      posts: [],
+      videos: [],
+      tags: [],
       searchField: '',
     };
+  }
+
+  handleChange = (event) => {
+    this.setState({ searchField: event.target.value });
+  };
+
+  componentDidMount() {
+    axios('https://my-json-server.typicode.com/bidodev/api-insta/db').then((res) => {
+      const { posts, videos, tags } = res.data;
+      this.setState({ data: res.data, posts: posts.data, videos: videos.data, tags: tags.data });
+    });
   }
 
   handleChange = (event) => {

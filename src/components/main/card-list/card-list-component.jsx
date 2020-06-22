@@ -5,12 +5,12 @@ import './card-list-component-styles.scss';
 import Card from '../card/card-component';
 
 const CardList = ({ cards }) => {
-  const { data, url } = cards;
+  console.log(cards)
   return (
     <div className="card-list">
-      {data.map((card) => {
+      {cards.map((card) => {
         return (
-          <Card key={`${url + card.race + card.id}`} card={card} url={url} />
+          <Card key={`${card.race + card.id}`} card={card}/>
         )
       })}
     </div>

@@ -17,6 +17,7 @@
 - [x] Show stats on Hover.
 - [x] Breaking code into small components.
 - [x] Working with Fontawesome and Emojis on React
+- [x] Axios and API instead local data.json
 - [ ] Authentication with Firebase
 - [ ] API / Store data in MongoDB
 - [ ] User Profile
