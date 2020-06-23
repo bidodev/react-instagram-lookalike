@@ -12,16 +12,21 @@
 
 ### New Project Roadmap
 *I've decided to seize the opportunity and add more features to this Project, therefore the new ROADMAP for this project is the follow*.
+
+#### Frontend
 - [x] Lookalike Instagram Layout
 - [x] React router system, with react-router-dom
 - [x] Show stats on Hover.
 - [x] Breaking code into small components.
 - [x] Working with Fontawesome and Emojis on React
 - [x] Axios and API instead local data.json
+- [x] Infinite scrooling using react-infinite-scroll-component
 - [ ] Authentication with Firebase
-- [ ] API / Store data in MongoDB
 - [ ] User Profile
 - [ ] Mobile Layout
+
+#### Backend
+- [ ] REST API using Node.js / Store data in MongoDB
 
 ## Model
 ![screenshot](./doc/img/pubity.png)
