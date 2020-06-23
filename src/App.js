@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+// import { URL_API } from './config'
+import InfiniteScroll from 'react-infinite-scroll-component';
 
-// import configs
-import { URL_API } from './config'
-
-// import components
 import Header from './components/header/header-component';
 import Profile from './components/profile/profile-component';
 import Content from './components/main/content/content.component';
+
 import Loading from './components/loader/spinner.component';
 
 class App extends Component {
@@ -15,9 +14,10 @@ class App extends Component {
     super(props);
 
     this.state = {
-      data: {},
-      searchField: '',
+      hasMore: true,
       isLoading: true,
+      slicedItems: [],
+      data: [],
     };
   }
 
@@ -26,22 +26,42 @@ class App extends Component {
   };
 
   componentDidMount() {
-    axios(URL_API).then((res) => {
-      const { ...props } = res.data;
-      this.setState({ data: { ...props }, isLoading: false });
+    axios('https://my-json-server.typicode.com/bidodev/api-insta/posts').then((res) => {
+      const slicedItems = res.data.slice(0, 9);
+      this.setState({ data: res.data, slicedItems });
     });
   }
 
+  fetchMoreData = () => {
+    const { data, slicedItems } = this.state;
+
+    if (slicedItems.length >= data.length) {
+      this.setState({ hasMore: false });
+      return;
+    }
+
+    setTimeout(() => {
+      const newItems = data.slice(slicedItems.length, slicedItems.length + 9);
+      this.setState({ slicedItems: slicedItems.concat(newItems) });
+    }, 1000);
+  };
+
   render() {
-    const { isLoading, data } = this.state;
+    const { isLoading, slicedItems } = this.state;
 
     return (
       <div className="App">
         <Header handleChange={this.handleChange} />
-
         <div className="main">
           <Profile />
-          {isLoading ? <Loading /> : <Content {...data} />}
+          <InfiniteScroll
+            dataLength={this.state.slicedItems.length}
+            next={this.fetchMoreData}
+            hasMore={this.state.hasMore}
+            loader={<Loading/>}
+          >
+          <Content posts={slicedItems} videos={slicedItems} tags={slicedItems}/>
+          </InfiniteScroll>
         </div>
       </div>
     );
