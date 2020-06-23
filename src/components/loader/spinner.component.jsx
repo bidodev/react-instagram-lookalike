@@ -1,5 +1,5 @@
 import React from "react";
-import './loading-spinner.styles.scss'
+import './spinner.styles.scss'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
