@@ -23,6 +23,7 @@ const Content = ({ posts, videos, tags }) => (
           <Link to="/tagged">Tagged</Link>
         </li>
       </ul>
+    </div>
 
       <Switch>
         <Route exact path="/">
@@ -35,7 +36,6 @@ const Content = ({ posts, videos, tags }) => (
           <CardList cards={tags} />
         </Route>
       </Switch>
-    </div>
   </Router>
 );
 export default Content;

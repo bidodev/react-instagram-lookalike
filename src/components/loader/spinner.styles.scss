@@ -1,9 +1,10 @@
 .loading {
-    font-size: 4rem;
+    font-size: 5rem;
     color: gray;
-    width: 93.5rem;
-    min-height: 66.5vh;
+    z-index: 9999;
+    height: 10vh;
+    overflow: hidden;
     display: flex;
-    justify-content:center;
     align-items: center;
+    justify-content:center;
 }
