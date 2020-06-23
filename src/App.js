@@ -36,7 +36,7 @@ class App extends Component {
   };
 
   render() {
-    const { ...dataProps } = this.state.data;
+    const { isLoading, data } = this.state;
 
     return (
       <div className="App">
@@ -44,7 +44,7 @@ class App extends Component {
 
         <div className="main">
           <Profile />
-          {this.state.isLoading ? <Loading /> : <Content {...dataProps} />}
+          {isLoading ? <Loading /> : <Content {...data} />}
         </div>
       </div>
     );
