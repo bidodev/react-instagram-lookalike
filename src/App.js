@@ -5,17 +5,16 @@ import Header from './components/header/header-component';
 import Profile from './components/profile/profile-component';
 import Content from './components/main/content/content.component';
 
+import Loading from './components/loader/loading-spinner.component';
+
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
-      data: {
-        posts: [],
-        videos: [],
-        tags: [],
-      },
+      data: {},
       searchField: '',
+      isLoading: true,
     };
   }
 
@@ -27,8 +26,8 @@ class App extends Component {
     const URL_API = 'https://my-json-server.typicode.com/bidodev/api-insta/db';
 
     axios(URL_API).then((res) => {
-      const { posts, videos, tags } = res.data;
-      this.setState({ data: { posts, videos, tags } });
+      const { ...props } = res.data;
+      this.setState({ data: { ...props }, isLoading: false });
     });
   }
 
@@ -45,7 +44,7 @@ class App extends Component {
 
         <div className="main">
           <Profile />
-          <Content {...dataProps} />
+          {this.state.isLoading ? <Loading /> : <Content {...dataProps} />}
         </div>
       </div>
     );
