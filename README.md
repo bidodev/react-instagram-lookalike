@@ -11,7 +11,7 @@
 - [x] Consider that you have to use **props** and pass data to components;
 
 ### New Project Roadmap
-*I've decided to seize the opportunity and add more features to this Project, therefore the new ROADMAP for this project is the follow*.
+*I've seized the opportunity to add more features to this Project, therefore the new ROADMAP for this project is the follow*.
 
 #### Frontend
 - [x] Lookalike Instagram Layout
